@@ -1,0 +1,56 @@
+.navbar_container{
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 2px #bcbaba;
+    /* padding: 15px; */
+    align-items: center;
+    color: #56BB6B;
+    font-weight: bold;
+}
+.navbar_logo{
+    width: 20%;
+}
+.navbar_content{
+    width: 30%;
+    padding: 15px;
+    
+}
+.navbar_content ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.navbar_search{
+    width: 30%;
+    padding: 15px;
+}
+.navbar_login{
+    width: 20%;
+}
+.navbar_login p{
+    border: 2px soild #56BB6B;
+}
+/* .login_div{
+    width: 30%;
+    border: 2px solid #56BB6B;
+} */
+.logo{
+    height: 70px;
+    width: 60px;
+}
+.navbar_search_btn{
+    width: 90%;
+    padding: 8px 1px;
+    border-radius: 15px;
+    /* border-color: #56BB6B; */
+    border: 2px solid #56BB6B;
+}
+.navbar_search_btn:hover{
+    border: 2px solid rgb(51, 171, 252);
+}
+.box{
+    border: 2px solid #56BB6B;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
