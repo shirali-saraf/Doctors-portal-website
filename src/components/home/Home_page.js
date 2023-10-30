@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home_page.css";
-import frontpage_img from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/frontpage_img.png"
-import images1 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/images 1.png"
+import frontpage_img from "../images/frontpage_img.png"
+import images1 from "../images/images 1.png"
 
 const Home_page = () => {
   return (

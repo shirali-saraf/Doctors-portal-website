@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/cured_logo.gif";
+import logo from "../images/cured_logo.gif";
 import "./Navbar.css";
 const Navbar = () => {
   return (

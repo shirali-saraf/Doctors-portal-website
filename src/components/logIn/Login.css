@@ -1,0 +1,89 @@
+/* .main-container{
+    text-align: center;
+} */
+.container{
+    margin: 0 10% 0 10%;
+}
+.login_header{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login_header ul{
+    list-style: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.login_header li{
+    display: inline-block;
+    margin: 0 20px;
+    cursor:pointer;
+}
+.login_header li:hover{
+    color: #56BB6B;
+}
+
+@media screen and (max-width:500px){
+    .container{
+        margin: 0;
+    }
+}
+
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    /* background-color: #56BB6B; */
+}
+.form-data{
+    width: 100%;
+}
+.form-child{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* opacity: 0.6; */
+    padding: 5%;
+    width: 100%;
+}
+.form-data{
+    margin-left: 2%;
+    text-align: left;
+}
+.form-data li{
+    margin: 10px 0px;
+}
+.form-data ul{
+    list-style: none;
+}
+
+.form-data li input{
+    width: 100%;
+    height: 20px;
+    padding: 15px 0;
+}
+.forget-pass{
+    text-align: right;
+    color: #56BB6B;
+}
+.forget-pass p:hover{
+    cursor: pointer;
+}
+.submit-btn button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background-color: #56BB6B;
+    border: none;
+    border-radius: 5px;
+}
+.submit-btn button:hover{
+    cursor: pointer;
+}
