@@ -4,11 +4,11 @@ import './Login.css'
 export default function LoginForm(prop) {
     return (
         <div>
-            <div className="form-container">
+            {/* <div className="form-container">
                 <div className="form-image">
                     <img src={prop.img} alt="" />
-                </div>
-                <div className="form-data">
+                </div> */}
+                {/* <div className="form-data"> */}
                     <div className="form-child">
                         <form>
                             <ul>
@@ -31,8 +31,8 @@ export default function LoginForm(prop) {
                             <button>Login</button>
                         </div>
                     </div>
-                </div>
-            </div>
+                {/* </div> */}
+            {/* </div> */}
         </div>
     )
 }
