@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from "../images/cured_logo.gif";
 import "./Navbar.css";
+
+import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
@@ -11,12 +13,14 @@ const Navbar = () => {
         </div>
         <div className='navbar_content'>
           <ul>
-            <li>Find a doctor</li>
+            <li><Link to="/findDoctors">Find a doctor</Link></li>
             <li>ContactUs</li>
           </ul>
         </div>
         <div className='navbar_login'>
-             <span className='box'> <span>Login</span>/<span>Signup</span></span>
+          {/* <div className='login_div'> */}
+             <span className='box'><Link to="/login"><span>Login</span>/<span>Signup</span></Link></span>
+          {/* </div> */}
         </div>
       </div>
     </div>
