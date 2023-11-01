@@ -16,9 +16,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='navbar_login'>
-          {/* <div className='login_div'> */}
              <span className='box'> <span>Login</span>/<span>Signup</span></span>
-          {/* </div> */}
         </div>
       </div>
     </div>
