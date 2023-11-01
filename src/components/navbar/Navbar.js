@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/cured_logo.gif";
+import logo from "../images/cured_logo.gif";
 import "./Navbar.css";
 
 import { Link, NavLink } from 'react-router-dom';
@@ -18,9 +18,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='navbar_login'>
-          {/* <div className='login_div'> */}
-             <span className='box'> <span>Login</span>/<span>Signup</span></span>
-          {/* </div> */}
+             <span className='box'><Link to="/login"><span>Login</span>/<span>Signup</span></Link></span>
         </div>
       </div>
     </div>

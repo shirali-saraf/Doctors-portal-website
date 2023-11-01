@@ -1,12 +1,12 @@
 import React from "react";
 import "./Home_page.css";
-import frontpage_img from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/frontpage_img.png"
-import images1 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/images 1.png"
-import doc1 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/doc1.png"
-import icon1 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/icon1.png"
-import icon2 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/icon2.png"
-import icon3 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/icon3.png"
-import icon4 from "C:/Users/dell/React_default/project/doctors-appointment-application/doctors-app/src/components/images/icon4.png"
+import frontpage_img from "../images/frontpage_img.png"
+import images1 from "../images/images 1.png"
+import doc1 from "../images/doc1.png"
+import icon1 from "../images/icon1.png"
+import icon2 from "../images/icon2.png"
+import icon3 from "../images/icon3.png"
+import icon4 from "../images/icon4.png"
 
 const Home_page = () => {
   return (
