@@ -21,7 +21,9 @@
 .home_content2{
     font-size: small;
     padding: 10px 30px;
+
 }
+
 .home_second{
     width: 50%;
 }
@@ -36,6 +38,9 @@
     background-color: #56BB6B;
     border: 1px solid #56BB6B;
     margin-top: 5px;
+}
+.home_btn:hover{
+    cursor: pointer;
 }
 .home_container2{
     width: 100%;
@@ -68,6 +73,13 @@
     border-radius: 5px;
     border: 2px solid #56BB6B;
     background-color: white;
+
+}
+.buttons:hover{
+    background-color: #56BB6B;
+    color: aliceblue;
+    cursor: pointer;
+
 }
 .home_specialist_container{
     display: flex;

@@ -1,0 +1,18 @@
+.specialist_image{
+    width: 300px;
+    height: 200px;
+}
+.specialist_container{
+    color: #4E4E4E;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+.specialitiesPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, rgb(247, 242, 242) , #56BB6B);
+
+}

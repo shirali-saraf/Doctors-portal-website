@@ -7,7 +7,7 @@ import Doctors from './components/FindDoctors/Doctors';
 import Login from './components/logIn/Login';
 import Doctor_page from './components/profilePage/Doctor_page';
 import UserProfile from './components/profilePage/UserProfile';
-
+import SpecialitiesPage from './components/Specialities/SpecialitiesPage';
 function App() {
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
         <Route path='/profile' element={<Doctor_page />}></Route>
         <Route path='/profile/user/:id' element={<UserProfile />}></Route>
-
+        <Route path='/specialities' element={<SpecialitiesPage />}></Route>
       </Routes>
       </BrowserRouter>
     </div>

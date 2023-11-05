@@ -7,6 +7,7 @@ import icon1 from "../images/icon1.png"
 import icon2 from "../images/icon2.png"
 import icon3 from "../images/icon3.png"
 import icon4 from "../images/icon4.png"
+import { Link } from "react-router-dom";
 
 const Home_page = () => {
   return (
@@ -19,7 +20,7 @@ const Home_page = () => {
           <div className="home_content2">
             <h2>Your Gateway to Specialized Healing,<br/>Meet Our Expert Doctors</h2>
           
-            <button className="home_btn">contact experts</button>
+            <Link to='/findDoctors'><button className="home_btn">contact experts</button></Link>
           </div>
         </div>
 
@@ -32,7 +33,8 @@ const Home_page = () => {
           <h3>Set up a clinic visit and discover experts in different fields</h3>
         </div>
         <div className="container2_seeall">
-          <span className="buttons">See all</span>
+           <Link to='/specialities'><span className="buttons">See all</span></Link>
+          
         </div>
       </div>
       
