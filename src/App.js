@@ -5,6 +5,7 @@ import Home_page from './components/home/Home_page';
 import Navbar from './components/navbar/Navbar';
 import Doctors from './components/FindDoctors/Doctors';
 import Login from './components/logIn/Login';
+import Doctor_page from './components/profilePage/Doctor_page';
 import SpecialitiesPage from './components/Specialities/SpecialitiesPage';
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
         <Route path='/' element={<Home_page/>}/>
         <Route path='/findDoctors' element={<Doctors/>}/>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/profile' element={<Doctor_page />}></Route>
         <Route path='/specialities' element={<SpecialitiesPage />}></Route>
       </Routes>
       </BrowserRouter>
-      
     </div>
   );
 }
