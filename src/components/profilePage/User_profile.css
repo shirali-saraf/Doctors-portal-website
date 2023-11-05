@@ -1,0 +1,61 @@
+.user-main-container{
+    width: 100%;
+    height: auto;
+    background-color: #56bb6a38;
+    min-height: 100vh;
+}
+
+
+.profile-detail{
+    max-width: 200px;
+}
+.user-container{
+    padding: 5% 20%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+}
+.user-name{
+    font-size: 1.4rem;
+    color: #56BB6B;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.user-details{
+    padding-left: 10px;
+    padding-bottom: 0.5rem;
+}
+.mybooking{
+    font-size: 1.4rem;
+    font-weight:500;
+    border-bottom: 1px solid rgb(107, 102, 102);
+    width: 75%;
+}
+.data-entry{
+    border: 1px solid rgb(51, 50, 50);
+    padding: 10px;
+    width: min-content;
+    border-radius: 5px;
+}
+.booking-data{
+    padding: 1.4rem 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.profile-image-edit{
+    border-radius: 10px;
+    border: transparent;
+}
+.profile-image-edit img{
+    border-radius: 10px ;
+}
+
+@media screen and (max-width:950px){
+    .user-container{
+        padding: 5% 5%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 2fr;
+    }
+}
