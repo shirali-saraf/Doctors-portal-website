@@ -6,7 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Doctors from './components/FindDoctors/Doctors';
 import Login from './components/logIn/Login';
 import Doctor_page from './components/profilePage/Doctor_page';
-
+import UserProfile from './components/profilePage/UserProfile';
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
         <Route path='/findDoctors' element={<Doctors/>}/>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/profile' element={<Doctor_page />}></Route>
+        <Route path='/profile/user/:id' element={<UserProfile />}></Route>
+
       </Routes>
       </BrowserRouter>
     </div>
