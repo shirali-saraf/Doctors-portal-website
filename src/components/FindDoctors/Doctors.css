@@ -1,0 +1,62 @@
+.doctors_container{
+    /* padding: 10px; */
+    border: 2px solid black;
+    /* width: 15%; */
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+/* .page{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+} */
+.doctors_container div h3{
+    margin: 3px 0px;
+}
+.doctors_container div h4{
+    margin: 3px 0px;
+}
+.doctors_btn{
+    width: 90%; 
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #56BB6B;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    margin:8px 0px;
+}
+.doctor_page{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.doctors_profilepic{
+    max-width: 120px;
+    height: 110px;
+    border: 3px solid #56BB6B;
+    border-radius: 50%;
+}
+.doctor_skills{
+    border: 1px solid gray;
+    margin: 5px;
+    display: inline-block;
+    margin-top: 2px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.skills_conatiner{
+    margin-top: 20px;
+}
+/* .skills_conatiner h3{
+    text-align: left;
+} */
+.skills_section{
+    background-color: rgb(86, 187, 107,0.2);
+}
